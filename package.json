@@ -1,0 +1,31 @@
+{
+  "name": "@boxes/watcher",
+  "version": "1.0.0",
+  "description": "Reusable diagram build system for boxesandarrows - watch, build, serve diagrams with auto-reload",
+  "main": "index.js",
+  "bin": {
+    "boxwatcher": "./cli.js"
+  },
+  "scripts": {
+    "build": "node build-all.js",
+    "watch": "node watch.js",
+    "serve": "node serve.js",
+    "dev": "./watch-and-serve.sh"
+  },
+  "keywords": [
+    "diagrams",
+    "boxesandarrows",
+    "watch",
+    "build",
+    "svg",
+    "png"
+  ],
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "sharp": "^0.35.5"
+  }
+}

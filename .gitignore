@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Output
+output/
+*.svg
+*.png
+
+# Cache
+.png-cache.json
+
+# Config (use example)
+boxwatcher.config.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
